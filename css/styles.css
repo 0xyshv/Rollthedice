@@ -3,8 +3,21 @@
   background-color: #F9E4D4;
   text-align: center;
   padding: 10%;
+
+}
+.heading{
+  font-size: 4rem;
 }
 #dice-image{
+  width: 15%;
 padding-top: 3%;
   padding-bottom: 5%;
 }
+@media (max-width:600px) {
+  .heading{
+    font-size: 3rem;
+  }
+
+  #dice-image{
+  width: 50%;
+  }
